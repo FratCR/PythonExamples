@@ -1,7 +1,7 @@
 #degisken.append komutu ile arraylere yeni array ekleyebiliriz
 #degisken.pop() komutu ise arreylerden (paketlerden) sonuncuyu silmeye yariyor
 
-#isim = "Yagmur Ibil"
+#isim = "Firat Cakir"
 #isimTip = type(isim)
 #isimUzunlugu = len(isim)
 #print(isim, isimTip, isimUzunlugu)
@@ -29,7 +29,7 @@
 #    print("En buyuk sayi :",sayi3)
 
 #kisi1 = "Firat"
-#kisi2 = "Yagmur"
+#kisi2 = "Ali"
 #if kisi1 == kisi2:
 #    print("Ayni kisilerdir")
 #else:
@@ -47,8 +47,8 @@
 #    else:
 #        print("Sayi Tektir :", number)
 
-#dizi = [["Firat", 2.8, 110],["Yagmur", 3.6, 102],["Ayana", 3.8, 108]]
-#dizi.append(["Gunana", 4.0, 109])
+#dizi = [["Firat", 2.8, 110],["Mustafa", 3.6, 102],["Kadir", 3.8, 108]]
+#dizi.append(["Aktila", 4.0, 109])
 #dizi=[0][1]=3.2
 #print (dizi[1:2])
 #print (len(dizi*5))
