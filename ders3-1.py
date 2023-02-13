@@ -38,8 +38,8 @@ else:
 #listeler metodu koseli parantez ile baslar, sinirsiz ekleme yapilabilir ve guncellenebilir.
 
 listeler.append("all*h 0 Firat 1")
-listeler[4] = "Yagmur <3"
-listeler[:2] = ["Yagmur", "Ibil"]
+listeler[4] = "Ugh"
+listeler[:2] = ["Igh", "OP"]
 listeler[0:4] = []
 print(listeler)"""
 
