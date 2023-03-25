@@ -221,3 +221,42 @@ mar1 = Marketing"""
 
 # yan etkili ve yan etkisiz fonksiyonlarin olayi sudur; yan etkisi varsa disaridan bir sey bu fonksiyona etki eder, yan etkisi yokken de icinde olan icinde kalır, disaridan bir sey onu degistiremez
 
+"""lambda_sum = lambda a,b: a+b
+print(lambda_sum(3,5)) # lambda sayesinde eski stil tanimlama ve carpma kullanmak yerine bunu kullaniriz
+# boylece bu fonksiyonu tanimis oluruz"""
+
+# OOP ile Vektorel Operasyon
+"""a = [1,2,3,4]
+b = [2,3,4,5]
+ab = []
+
+for i in range(0, len(a)):
+    ab.append(a[i]*b[i])
+    
+print(ab)"""
+
+# Fonksiyonel Programlama
+"""import numpy as np
+a = np.array([1,2,3,5])
+b = np.array([3,5,7,9])
+# numpy kullanarak matematiksel islemleri daha kolay ve kisa yoldan yapabiliriz
+# onun yazimi da boyle olmaktadir
+print(a*b)"""
+
+# map metodu
+"""liste = [2,4,6,8,10] 
+print(list(map(lambda x: x*10, liste)))
+# burada map metodunu kullanarak liste isimli nesneyi, fonksiyonel bir isleme tabi tutabiliriz"""
+
+# filtre metodu
+"""liste = [1,2,3,4,5,6,7,8,9,10,11,12]
+print(list(filter(lambda x: x % 2 == 0, liste)))
+# filtre metodu ile buradan filtreleme yapabiliriz ve nesnemizi boyle bir fonksiyona tabi tutariz"""
+
+# reduce metodu
+"""from functools import reduce #functools modulunden reduce ogesini cagirdik
+liste = [1,2,3,4]
+print(reduce(lambda a,b: a+b, liste))
+#  reduce metodu sayesinde nesnenin icindeki her bir ogeyi alip islem yapabiliriz ve bunu da cikti olarak gosterebiliriz"""
+
+# try ve except komutlari daha cok istisna olaylari denemek icin ve istisnai hatalari gormezden gelmek icin kullanilir.
