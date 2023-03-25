@@ -232,7 +232,6 @@ ab = []
 
 for i in range(0, len(a)):
     ab.append(a[i]*b[i])
-    
 print(ab)"""
 
 # Fonksiyonel Programlama
